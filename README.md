@@ -14,14 +14,14 @@ Habitat loss is the greatest threat to the persistence of forest-dependent amphi
 ## Data
 ### Occupancy data
 
-amphibian_occ_data.csv - contains the data of amphibian occurrence in Brazilian Atlantic Forest streams. The rows are 50 sites in the study area. There are four columns: 
+[amphibian_occ_data.csv](https://github.com/zipkinlab/Ribeiro_etal_2018_EcoApps/blob/master/amphibian_occ_data.csv) - contains the data of amphibian occurrence in Brazilian Atlantic Forest streams. The rows are 50 sites in the study area. There are four columns: 
 1. "stream" - contains sampling site id
 2. "date" - contains the survey date (YYYYMMDD)
-3. "species" - is species name code. The names of species with their respective codes are available in the "amphibian_species.csv"
+3. "species" - is species name code. The names of species with their respective codes are available in the "[amphibian_species.csv](https://github.com/zipkinlab/Ribeiro_etal_2018_EcoApps/blob/master/amphibian_species.csv)"
 4. "rep" - represents a replicate survey event. Rep 1-3 represents the passive method using Automated Acoustic Recorders (AAR) and rep 4-5 represents the active approach of Standardized Acoustic and Visual Transect Sampling (SAVTS).
 
 ### Habitat covariates
-occupancy_habitat_covariates_anura.csv - contains habitat covariate information for each site. 
+[occupancy_habitat_covariates_anura.csv](https://github.com/zipkinlab/Ribeiro_etal_2018_EcoApps/blob/master/occupancy_habitat_covariates_anura.csv) - contains habitat covariate information for each site. 
 1. "stream" - contains sampling site id
 2. "long" - is the geographic longitude coordinate as decimal degree
 3. "lat" - is the geographic latitude coordinate as decimal degree
@@ -36,10 +36,10 @@ occupancy_habitat_covariates_anura.csv - contains habitat covariate information 
 12.	"slope_mean" - is the mean slope within a buffer, it was derived from the Digital Elevation Model raster image (30-m resolution) from Shuttle Radar Topography Mission (SRTM).
 
 ### Detection covariates
-detection_covariates_anura.csv - contains information of survey date and daily precipitation for each replicate survey event: 
+[detection_covariates_anura.csv](https://github.com/zipkinlab/Ribeiro_etal_2018_EcoApps/blob/master/detection_covariates_anura.csv) - contains information of survey date and daily precipitation for each replicate survey event: 
 1. "stream" - contains sampling site id
 2. -- 6. Each columns contains Julian date for a different replicate survey event (we assumed the first day as the beginning of southern hemisphere spring)
 7. -- 11. Each columns contains daily precipitation (mm) for a replicate survey event.
 
 ## Code
-community_model_code_amphibians.R - R code to run the hierarchical community occupancy model for amphibian in Brazil’s Atlantic Forest streams. Contains code to import and reshape the data and run the model file in JAGS.
+[community_model_code_amphibians.R](https://github.com/zipkinlab/Ribeiro_etal_2018_EcoApps/blob/master/community_model_code_amphibians.R) - R code to run the hierarchical community occupancy model for amphibian in Brazil’s Atlantic Forest streams. Contains code to import and reshape the data and run the model file in JAGS.
